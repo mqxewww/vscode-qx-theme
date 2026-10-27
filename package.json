@@ -1,0 +1,18 @@
+{
+  "name": "qx-theme-for-code",
+  "displayName": "QX Theme for Code",
+  "description": "A calm dark theme with an Islands-style layout.",
+  "version": "0.0.0",
+  "publisher": "mqxewww",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mqxewww/vscode-qx-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ]
+}
