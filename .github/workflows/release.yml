@@ -1,0 +1,16 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      # TODO: publish to the VS Code Marketplace and Open VSX when `release_created` is true.
+      - uses: googleapis/release-please-action@v5
