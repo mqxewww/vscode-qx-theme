@@ -14,5 +14,14 @@
   },
   "categories": [
     "Themes"
-  ]
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "QX Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qx-theme-color-theme.json"
+      }
+    ]
+  }
 }

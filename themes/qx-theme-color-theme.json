@@ -1,0 +1,32 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "QX Theme",
+  "type": "dark",
+  "colors": {
+    "focusBorder": "#4A80C2",
+
+    "editor.background": "#191A1C",
+    "editorGroupHeader.tabsBackground": "#25282A",
+    "tab.activeBackground": "#191A1C",
+    "tab.inactiveBackground": "#25282A",
+    "tab.activeBorderTop": "#4A80C2",
+    "tab.border": "#191A1C",
+
+    "titleBar.activeBackground": "#25282A",
+    "titleBar.inactiveBackground": "#25282A",
+    "titleBar.border": "#191A1C",
+    "activityBar.background": "#25282A",
+    "activityBar.border": "#191A1C",
+    "activityBar.activeBorder": "#4A80C2",
+    "activityBarBadge.background": "#4A80C2",
+    "sideBar.background": "#25282A",
+    "sideBar.border": "#191A1C",
+    "panel.background": "#25282A",
+    "panel.border": "#191A1C",
+    "statusBar.background": "#25282A",
+    "statusBar.border": "#191A1C",
+
+    "button.background": "#4074B5",
+    "button.foreground": "#FFFFFF"
+  }
+}

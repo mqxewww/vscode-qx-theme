@@ -1,0 +1,7 @@
+.github/**
+.vscode/**
+.gitignore
+.release-please-manifest.json
+release-please-config.json
+CONTRIBUTING.md
+spec.md
