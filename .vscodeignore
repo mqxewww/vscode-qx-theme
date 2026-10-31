@@ -5,3 +5,7 @@
 release-please-config.json
 CONTRIBUTING.md
 spec.md
+plan.md
+images/screenshots/**
+samples/**
+scripts/**

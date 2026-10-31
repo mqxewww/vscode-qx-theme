@@ -23,4 +23,5 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 24
+      - run: node scripts/check-theme.mjs
       - run: npx @vscode/vsce@4 package

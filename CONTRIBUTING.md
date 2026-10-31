@@ -6,7 +6,15 @@
    Host window opens with the theme loaded.
 2. In that window, run **Preferences: Color Theme** (`Ctrl+K Ctrl+T`) and
    select **QX Theme**.
-3. Edit `themes/qx-theme-color-theme.json`: changes apply on save.
+3. Edit `themes/qx-theme-color-theme.json`: changes apply on save. The files
+   in `samples/` cover every language the theme is tuned for.
+
+Before opening a PR, check the theme file (JSON, color format, contrast and
+italics). The CI runs the same check:
+
+```sh
+node scripts/check-theme.mjs
+```
 
 To build the `.vsix` package, as the CI does:
 
