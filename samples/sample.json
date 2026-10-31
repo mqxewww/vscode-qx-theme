@@ -1,0 +1,19 @@
+{
+  "name": "qx-sample",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Sample data with \"escaped quotes\" and a tab:\tdone",
+  "port": 8080,
+  "ratio": 0.75,
+  "debug": false,
+  "proxy": null,
+  "features": ["themes", "icons"],
+  "server": {
+    "host": "localhost",
+    "timeoutMs": 30000,
+    "routes": [
+      { "path": "/api", "methods": ["GET", "POST"], "auth": true },
+      { "path": "/health", "methods": ["GET"], "auth": false }
+    ]
+  }
+}

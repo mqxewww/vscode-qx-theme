@@ -1,0 +1,35 @@
+# Deployment configuration
+version: 2
+name: qx-sample
+enabled: true
+replicas: 3
+timeout: 30.5
+owner: ~
+
+defaults: &defaults
+  region: eu-west-1
+  retries: 2
+
+environments:
+  staging:
+    <<: *defaults
+    url: "https://staging.example.com"
+  production:
+    <<: *defaults
+    region: eu-central-1
+    url: https://example.com
+
+steps:
+  - name: Install
+    run: npm ci
+  - name: Build
+    run: |
+      npm run build
+      echo "Done in ${SECONDS}s"
+    env:
+      NODE_ENV: production
+      FEATURE_FLAGS: 'themes,icons'
+
+notes: >
+  Folded text keeps
+  a single paragraph.

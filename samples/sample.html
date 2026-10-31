@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QX Theme &mdash; Sample</title>
+    <link rel="stylesheet" href="sample.css" />
+    <style>
+      .hero {
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main navigation -->
+    <header class="site-header">
+      <nav aria-label="Main">
+        <a href="#features" class="nav-link is-active">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <main id="content" class="hero">
+      <h1>Hello, <em>world</em> &amp; friends</h1>
+      <p>Built with <strong>care</strong>.<br />Last update: <time datetime="2026-10-31">October 31</time>.</p>
+
+      <form action="/subscribe" method="post">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required />
+        <button type="submit" disabled>Subscribe</button>
+      </form>
+    </main>
+
+    <script type="module">
+      const form = document.querySelector("form");
+      form?.addEventListener("submit", (event) => {
+        event.preventDefault();
+        console.log(`Submitted at ${new Date().toISOString()}`);
+      });
+    </script>
+  </body>
+</html>
