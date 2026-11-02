@@ -4,27 +4,42 @@
   "type": "dark",
   "colors": {
     "focusBorder": "#4A80C2",
-
-    "editor.background": "#191A1C",
-    "editorGroupHeader.tabsBackground": "#25282A",
-    "tab.activeBackground": "#191A1C",
-    "tab.inactiveBackground": "#25282A",
-    "tab.activeBorderTop": "#4A80C2",
-    "tab.border": "#191A1C",
+    "foreground": "#BCBEC4",
 
     "titleBar.activeBackground": "#25282A",
+    "titleBar.activeForeground": "#BCBEC4",
     "titleBar.inactiveBackground": "#25282A",
     "titleBar.border": "#191A1C",
+
     "activityBar.background": "#25282A",
-    "activityBar.border": "#191A1C",
+    "activityBar.foreground": "#4A80C2",
     "activityBar.activeBorder": "#4A80C2",
+    "activityBar.border": "#191A1C",
     "activityBarBadge.background": "#4A80C2",
+
     "sideBar.background": "#25282A",
     "sideBar.border": "#191A1C",
+    "sideBarSectionHeader.border": "#191A1C",
+
+    "editorGroup.border": "#191A1C",
+    "editorGroupHeader.tabsBackground": "#25282A",
+    "tab.activeBackground": "#191A1C",
+    "tab.activeForeground": "#BCBEC4",
+    "tab.activeBorderTop": "#4A80C2",
+    "tab.inactiveBackground": "#25282A",
+    "tab.border": "#191A1C",
+
+    "editor.background": "#191A1C",
+
     "panel.background": "#25282A",
     "panel.border": "#191A1C",
+    "panelTitle.activeBorder": "#4A80C2",
+
     "statusBar.background": "#25282A",
+    "statusBar.foreground": "#BCBEC4",
     "statusBar.border": "#191A1C",
+    "statusBar.noFolderBackground": "#25282A",
+    "statusBarItem.remoteBackground": "#4A80C2",
 
     "button.background": "#4074B5",
     "button.foreground": "#FFFFFF"
